@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+        <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/test.css" rel="stylesheet" type="text/css"/>
+        <link href="css/text.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Code Highway</title>
+
+    <!-- Bootstrap -->
+
+  </head>
+  <body>
+
+<!-- Code for the nav-bar -->
+
+<div class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="Home.html">Code Highway</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Lessons</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="cs1.html">Computer Science 1</a></li>
+          <li><a href="cs2.html">Computer Science 2</a></li>
+          <li><a href="#">Algorithms and Data Structures</a></li>
+        </ul>
+      </li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="About.html">About</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- End of nav-bar -->
+
+<!-- Start of carousel -->
+
+<!--The slider-->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/A.jpg" style="width:100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Bootstrap 3 Carousel Layout</h1>
+          <p></p>
+          <p><a class="btn btn-lg btn-primary pull-right" href="http://getbootstrap.com">Learn More</a>
+              <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+        </button>
+
+        </p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://lorempixel.com/2000/600/abstract/1" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Changes to the Grid</h1>
+          <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
+          <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1500X500" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Percentage-based sizing</h1>
+          <p>With "mobile-first" there is now only one percentage-based grid.</p>
+          <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>  
+</div>
+<div class="dropdownWrapper hard-hidden">
+			      			<div class="dropdownAccount hidden">
+			      				<div class="accountList">
+										<ul>
+										<li><a href="https://www.snapdeal.com/myorders"><i class="order-icon footerIconsImg"></i>Orders</a></li>
+										<li><a href="https://www.snapdeal.com/mywishlist"><i class="shortlist-icon footerIconsImg"></i>Shortlist</a></li>
+										<li><a href="https://www.snapdeal.com/mysdcash" class="sd-information"><i class="sd-cash-icon footerIconsImg"></i><span class="sd-cash">SD Cash</span><div class="sd-balance"></div></a></li>
+										<li><a href="https://www.snapdeal.com/myEGiftVoucher"><i class="gift-icon footerIconsImg"></i>E-Gift Voucher</a></li>
+										<li class="accountInfoNonLoggedIn logoutNew">
+											<a href="https://www.snapdeal.com/logout" class="accountBtn rippleWhite sign logout-account">Logout</a>
+										</li>
+										</ul>
+									</div>
+
+							</div>
+							<div class="dropdownAccountNonLoggedIn hidden">
+								<div class="accountList">
+									<ul>
+										<li><a href="https://www.snapdeal.com/myorders"><i class="account-icon footerIconsImg"></i>Your Account</a></li>
+										<li><a href="https://www.snapdeal.com/myorders"><i class="order-icon footerIconsImg"></i>Your Orders</a></li>
+										<li><a href="https://www.snapdeal.com/mywishlist"><i class="shortlist-icon footerIconsImg"></i>Shortlist</a></li>
+										<li><a href="https://www.snapdeal.com/mysdcash"  class="sd-information"><i class="sd-cash-icon footerIconsImg"></i>SD Cash</a></li>
+									</ul>
+								</div>
+								<div class="accountInfoNonLoggedIn">
+						 			<p class="newUser"><span>If you are a new user</span></p>
+						 			<span class="newUserRegister">Register</span>
+						 			<span class="accountBtn btn rippleWhite"><a href="https://www.snapdeal.com/login">login</a></span>
+						 		</div>
+
+							</div>
+					</div>
+			    </div>
+			</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    </body>
+</html>

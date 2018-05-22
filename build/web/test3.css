@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2018, 8:35:01 AM
+    Author     : hp
+*/
+
+.footerIconsImg {
+    background-image: url("/img/newHomePageIcons@1x.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+.dropdownWrapper .dropdownAccount .accountList li.logoutNew {
+    text-align: center!important;
+    margin-top: 7px;
+}
+.dropdownWrapper .dropdownAccount .accountList li.logoutNew .accountBtn {
+    border-radius: 3px!important;
+    height: 37px;
+    font-size: 13px!important;
+    line-height: 30px;
+    background: #555;
+}
+.sd-information {
+    display: table!important;
+}
+.sd-information i {
+    line-height: 9px!important;
+}
+.sd-information span {
+    overflow: hidden;
+    display: table-cell;
+    width: 100%;
+    max-width: 74px;
+    padding-right: 5px;
+    text-overflow: ellipsis;
+}
+.sd-information .sd-balance {
+    color: #aaa;
+    font-size: 11px;
+    display: table-cell;
+    padding-right: 11px;
+}
